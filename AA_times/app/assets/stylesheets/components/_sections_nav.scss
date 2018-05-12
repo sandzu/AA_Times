@@ -1,0 +1,25 @@
+.sections-nav {
+  // display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ul li {
+    display: inline-block;
+    padding-left: 8px;
+    a{
+      text-decoration: none;
+    }
+    a:hover{
+      background-color: $light-gray;
+    }
+  }
+
+  ul li:last-of-type {
+    a{
+      text-decoration: underline;
+      // color: red;
+    }
+  }
+
+
+}
